@@ -1,0 +1,37 @@
+{
+    "name": "is208",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "migrate": "npx prisma migrate dev --skip-generate"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.4.3",
+        "@supabase/supabase-js": "^1.35.3",
+        "clsx": "^1.1.1",
+        "next": "12.1.6",
+        "react": "18.1.0",
+        "react-dom": "18.1.0",
+        "react-hook-form": "^7.31.3",
+        "react-toastify": "^9.0.1",
+        "swr": "^2.0.0-beta.3"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.2",
+        "@types/node": "17.0.34",
+        "@types/react": "18.0.9",
+        "@types/react-dom": "18.0.4",
+        "autoprefixer": "^10.4.7",
+        "eslint": "8.15.0",
+        "eslint-config-next": "12.1.6",
+        "postcss": "^8.4.14",
+        "prettier": "^2.6.2",
+        "prisma": "^3.14.0",
+        "tailwindcss": "^3.0.24",
+        "typescript": "4.6.4"
+    }
+}
